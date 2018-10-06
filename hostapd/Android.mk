@@ -1190,7 +1190,7 @@ LOCAL_SRC_FILES += \
 LOCAL_SHARED_LIBRARIES += \
     vendor.qti.hardware.wifi.hostapd@1.0 \
     libqsap_sdk
-LOCAL_HEADER_LIBRARIES := libqsap_headers
+#LOCAL_HEADER_LIBRARIES := sdk/softap/include
 endif
 
 include $(BUILD_STATIC_LIBRARY)
